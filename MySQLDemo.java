@@ -6,6 +6,12 @@ public class MySQLDemo {
  
     // JDBC 驱动名及数据库 URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+ 
+    //url说明：
+    //(1)jdbc:mysql: 是指JDBC连接方式；
+    //(2)localhost: 是指你的本机地址；
+    //(3)3306: SQL数据库的端口号；
+    //(4)RUNOOB: 本地mysql中数据库的名称
     static final String DB_URL = "jdbc:mysql://localhost:3306/RUNOOB";
  
     // 数据库的用户名与密码，需要根据自己的设置
